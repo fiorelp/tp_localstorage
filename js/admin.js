@@ -1,7 +1,12 @@
 window.onload=inicio;
 
 //Variables
-
+var inputCod=document.getElementById("codSocio");
+var inputName=document.getElementById("nameSocio");
+var inputSur=document.getElementById("surSocio");
+var inputMail=document.getElementById("mailSocio");
+var inputNum=document.getElementById("numSocio");
+var inputCate=document.getElementById("cateSocio");
 //Botones
 var btnSaveSocio=document.getElementById("saveSocio");
 var btnDeleteSocio=document.getElementById("deleteSocio");
@@ -21,12 +26,7 @@ function inicio(){
 
 function save(){
 socio={}
-var inputCod=document.getElementById("codSocio");
-var inputName=document.getElementById("nameSocio");
-var inputSur=document.getElementById("surSocio");
-var inputMail=document.getElementById("mailSocio");
-var inputNum=document.getElementById("numSocio");
-var inputCate=document.getElementById("cateSocio");
+
 
 socio.codigo=inputCod.value;
 socio.nombre=inputName.value;
@@ -35,16 +35,16 @@ socio.email=inputMail.value;
 socio.numero=inputNum.value;
 socio.categoria=inputCate.value;
 
+socios.push(socio);
+
+localStorage.setItem("nnn", JSON.stringify(socios));
+
 inputCod.value="";
 inputName.value="";
 inputSur.value="";
 inputMail.value="";
 inputNum.value="";
 inputCate.value="";
-
-socios.push(socio);
-
-localStorage.setItem("nnn", JSON.stringify(socios));
 
 
 }
