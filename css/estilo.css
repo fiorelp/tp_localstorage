@@ -35,10 +35,11 @@ header{
     padding: 0.5em;
     margin: 0.5em;
     font-family: 'Nunito', sans-serif;
-    color:white
+    
 }
 .link{
     text-decoration: none;
+    color:white
 }
 .link:visited{
     
