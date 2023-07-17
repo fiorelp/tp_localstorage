@@ -1,0 +1,214 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: #E9E5F1;
+    color: #0C0123;
+}
+
+header{
+    background-color: #315E53;
+    color: #30018E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 20em;
+}
+.title{
+    text-align: center;
+    padding: 0em 1em 0em 1em;
+    font-family: 'Lumanosimo', cursive;
+    color: white;
+    font-size: 48px;
+}
+.menu{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.pages{
+    padding: 0.5em;
+    margin: 0.5em;
+    font-family: 'Nunito', sans-serif;
+}
+.link{
+    text-decoration: none;
+}
+.link:visited{
+    
+    color: white;
+}
+.link:hover{
+    color: #D1C8E1;
+    transition: .2s;
+
+}
+
+.subtitle{
+    text-align: center;
+    padding: 1em;
+    font-family: 'Lunasima', sans-serif;
+    color: white;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+.titleForm{
+    font-size: 30px;
+    padding: 0.5em;
+    margin-top: 2em;
+    color: #24016A;
+    font-family: 'Lunasima', sans-serif;
+    text-align: center;
+}
+.form{
+    padding:1em;
+    background-color: #E4E3F3;
+    border-radius: 10px;
+    width:40em;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.divForm{
+    margin:1em;
+    display: flex;
+    flex-direction: column;
+}
+.labelForm{
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 0.5em;
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+    color: #361a71;
+}
+.inputForm{
+    font-size: 18px;
+    border: 0.5px;
+    border-radius: 10px;
+    padding: 0.3em  ;
+}
+.inputFormS{
+    font-size: 16px;
+    padding: 0.3em;
+    border: 0.5px;
+    border-radius: 10px
+}
+.divBtn{
+    display: flex;
+    justify-content: center;
+}
+.btn1{
+    width: 15em;
+    height: 3em;
+    font-size: 16px;
+    padding: 0.5em;
+    background: #3A1A79;
+    color: #E9E5F1;
+    font-weight: bold;
+    border-radius: 10px;
+    font-family: 'Lunasima', sans-serif;
+}
+.btn1:hover{
+    color: #8f8d94;
+    transition: 0.2s;
+}
+.divBuscar{
+    margin:1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.labelBuscar{
+    font-size: 21px;
+    text-align: center;
+    padding-bottom: 0.5em;
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+    color: #361a71;
+}
+.inputBuscar{
+    font-size: 16px;
+    padding: 0.3em;
+    border: 0.5px;
+    border-radius: 10px;
+    height:2.5em;
+    width: 65%;
+}
+.btn2{
+    width: 34%;
+    height: 2.5em;
+    font-size: 16px;
+    padding: 0.5em;
+    background: #3A1A79;
+    color: #E9E5F1;
+    font-weight: bold;
+    border-radius: 10px;
+    font-family: 'Lunasima', sans-serif;
+}
+.btn2:hover{
+    color: #8f8d94;
+    transition: 0.2s;
+}
+.mainBm{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn3{
+    width: 20em;
+    height: 2.5em;
+    font-size: 16px;
+    padding: 0.5em;
+    background: #3A1A79;
+    color: #E9E5F1;
+    font-weight: bold;
+    border-radius: 10px;
+    font-family: 'Lunasima', sans-serif;
+}
+.btn3:hover:hover{
+    color: #8f8d94;
+    transition: 0.2s;
+}
+.inputCuota{
+    font-size: 16px;
+    padding: 0.3em;
+    border: 0.5px;
+    border-radius: 10px;
+    height:2.5em;
+    width: 50em;
+}
+table {
+    border-collapse: collapse;
+    border-radius: 10px;
+    border: 0.5px #E9E5F1;
+    text-align: center;
+	vertical-align: middle;
+    width:100em;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    color: #361a71;
+    
+  }
+
+  th, td {
+    padding: 8px;
+  }
+  th{
+    background-color:#E4E3F3;
+    font-family: 'Nunito', sans-serif;
+  }
+  td{
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+  }

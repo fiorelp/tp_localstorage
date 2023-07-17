@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club social Pendorchito</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lumanosimo&family=Lunasima:wght@400;700&family=Nunito:wght@300;400&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/favicon-16x16.png">
+</head>
+<body>
+    <header>
+        <img src="./img/clubsocial_logo.png" alt="club logo" class="logo">
+        <h1 class="title" >Acacias</h1>
+    <h2 class="subtitle">Sistema de administración</h2>
+        <nav>
+        <div class="menu">
+        <h2 class="pages"><a href="insc.html" class="link">Inscripción</a></h2>
+        <h2 class="pages"><a href="bym.html" class="link">Baja y modificación</a></h2>
+        <h2 class="pages">
+            <a href="cuota.html" class="link">Cuota mensual</a>
+        </h2>
+        </div>
+        </nav>
+    </header>
+    <main>
+         <div class="divForm">
+        <label for="name" class="labelBuscar">Número de socio:</label>
+        <div class="div_Buscar">
+            <input type="search" id="socioCuota" class="inputCuota" placeholder="Buscar socio">
+            <button id="cuotaBtn" class="btn3">Buscar</button>
+        </div>
+    </div>
+        <table>
+            <thead>
+                <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Email</th>
+                <th>Número de celular</th>
+                <th>Categoría</th>
+                <th>Cuota</th>
+            </tr>
+            </thead>
+            <tbody id="resumenCuota">
+
+            </tbody>
+        </table>
+    </main>
+    <script src="cuota.js"></script>
+</body>
+</html>

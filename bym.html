@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club social Pendorchito</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lumanosimo&family=Lunasima:wght@400;700&family=Nunito:wght@300;400&family=Raleway:wght@300&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="./img/favicon-16x16.png">
+</head>
+<body>
+<header>
+    <img src="./img/clubsocial_logo.png" alt="club logo" class="logo">
+    <h1 class="title" >Acacias</h1>
+    <h2 class="subtitle">Sistema de administración</h2>
+        <nav>
+        <div class="menu">
+        <h2 class="pages"><a href="insc.html" class="link">Inscripción</a></h2>
+        <h2 class="pages"><a href="bym.html" class="link">Baja y modificación</a></h2>
+        <h2 class="pages">
+            <a href="cuota.html" class="link">Cuota mensual</a>
+        </h2>
+        </div>
+        </nav>
+</header>
+<main class="mainBm">
+    <section>
+        <h3 class="titleForm">Eliminar socio</h3>
+               <div class="form">
+                    <div class="divForm">
+                        <label for="name" class="labelBuscar">Número de socio:</label>
+                        <div class="div_Buscar">
+                            <input type="search" id="buscarSocio" class="inputBuscar" placeholder="Buscar socio">
+                            <button id="buscador" class="btn2">Buscar</button>
+                        </div>
+                    </div>
+            
+                    <div class="divForm">
+                        <label for="name" class="labelForm">Nombre:</label>
+                            <input type="text" class="inputForm" id="nameSocio" readonly>
+                    </div>
+                    <div class="divForm">
+                        <label for="surn" class="labelForm">Apellido:
+                        </label>
+                            <input type="text" class="inputForm" id="surSocio" readonly>
+                    </div>
+                    <div class="divForm">
+                        <label for="mail" class="labelForm">Email:
+                        </label>
+                            <input type="text" class="inputForm" id="mailSocio" readonly>
+                    </div>
+                    <div class="divForm">
+                        <label for="mail" class="labelForm" >Número de celular:
+                        </label>
+                        <input type="text" class="inputForm" id="numSocio" readonly>
+                    </div>
+                    <div class="divForm">
+                        <label for="mail" class="labelForm"labelForm >Categoría:
+                    </label>
+                    <input id="cateSocio" class="inputForm" readonly>
+                    </div>
+                <div class="divBtn">
+                    <button type="submit" class="btn1" id="deleteSocio"><strong>Eliminar socio</strong></button>
+                </div>
+               </div>
+    </section>
+           <section>
+            <h3 class="titleForm">Modificar socio</h3>
+            <div class="form">
+                <div class="divForm">
+                    <label for="name" class="labelForm">Ingrese número de socio a modificar:</label>
+                        <input type="text" class="inputForm" id="codModify">
+                </div>
+                <div class="divForm">
+                    <label for="name" class="labelForm">Nombre:</label>
+                        <input type="text" class="inputForm" id="nameModify">
+                </div>
+                <div class="divForm">
+                    <label for="surn" class="labelForm">Apellido:
+                    </label>
+                        <input type="text" class="inputForm" id="surModify">
+                </div>
+                <div class="divForm">
+                    <label for="mail" class="labelForm">Email:
+                    </label>
+                        <input type="text" class="inputForm" id="mailModify">
+                </div>
+                <div class="divForm">
+                    <label for="text" class="labelForm" >Número de celular:
+                    </label>
+                    <input type="text" class="inputForm" id="numModify">
+                </div>
+                <div class="divForm">
+                    <select id="cateModify" class="inputFormS">
+                        <option selected class="inputForm">Elija una categoría:
+                        </option>
+                        <option>Cadete</option>
+                        <option>Socio pleno</option>
+                        <option>Adherente</option>
+                        </select>
+                </div>
+                <div class="divBtn">
+                     <button type="submit" class="btn1" id="modifySocio"><strong>Modificar socio</strong>
+                    </button>
+                </div>
+                </div>
+               
+       </section>
+</main>
+   <script src="bym.js"></script>
+</body>
+</html>
